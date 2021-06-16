@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+input {
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    border: 0;
+    margin-bottom: 5px;
+    background-color: #d38d72;
+    border-radius: 15px;
+    z-index: 99;
+    font-size: 20px;
+}
+
+input:hover {
+    background-color: #5cebeb;
+}
+
+h1 {
+    margin: 30px auto;
+    text-align: center;
+    color: #c5e775;
+}
+
+.input {
+    top: 100px;
+    left: 20px;
+}
+
+.rollCall {
+    top: 200px;
+    left: 20px;
+}
+
+.del {
+    top: 100px;
+    right: 20px;
+}
+
+.delAll {
+    top: 200px;
+    right: 20px;
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    background-color: pink;
+    top: 300px;
+    right: 20px;
+    text-align: center;
+    border-radius: 20px;
+    max-height: 330px;
+}
+
+.box ul li {
+    line-height: 25px;
+}
+
+.box h2 {
+    line-height: 40px;
+    color: #d38d72;
+}
+
+.boxs {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.boxs_h2 {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    color: #d38d72 ;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.point {
+    position: absolute;
+    color: #ccc;
+    font-size: 12px;
+    top: 80%;
+    left: 40%;
+}
