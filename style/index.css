@@ -22,8 +22,8 @@ li {
 input {
     position: absolute;
     display: inline-block;
-    width: 10.7em;
-    height: 5.7em;
+    min-width: 3.571429rem;
+    min-height: 2.142857rem;
     border: 0;
     margin-bottom: .35em;
     background-color: #d38d72;
