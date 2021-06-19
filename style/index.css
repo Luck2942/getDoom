@@ -22,14 +22,14 @@ li {
 input {
     position: absolute;
     display: inline-block;
-    width: 150px;
-    height: 80px;
+    width: 10.7em;
+    height: 5.7em;
     border: 0;
-    margin-bottom: 5px;
+    margin-bottom: .35em;
     background-color: #d38d72;
     border-radius: 15px;
     z-index: 99;
-    font-size: 20px;
+    font-size: 1.07em;
 }
 
 input:hover {
@@ -37,80 +37,80 @@ input:hover {
 }
 
 h1 {
-    margin: 30px auto;
+    margin: 2.14em auto;
     text-align: center;
     color: #c5e775;
 }
 
 .input {
-    top: 100px;
-    left: 20px;
+    top: 7.14em;
+    left: 1.42em;
 }
 
 .rollCall {
-    top: 200px;
-    left: 20px;
+    top: 14.285714rem;
+    left: 1.428571rem;
 }
 
 .del {
-    top: 100px;
-    right: 20px;
+    top: 7.142857rem;
+    right: 1.428571rem;
 }
 
 .delAll {
-    top: 200px;
-    right: 20px;
+    top: 14.285714rem;
+    right: 1.428571rem;
 }
 
 .box {
     position: absolute;
-    width: 200px;
+    width: 14.285714rem;
     background-color: pink;
-    top: 300px;
-    right: 20px;
+    top: 21.428571rem;
+    right: 1.428571rem;
     text-align: center;
-    border-radius: 20px;
-    max-height: 330px;
+    border-radius: 1.428571rem;
+    max-height: 23.571429rem;
 }
 
 .box ul li {
-    line-height: 25px;
+    line-height: 1.785714rem;
 }
 
 .box h2 {
-    line-height: 40px;
+    line-height: 2.857143rem;
     color: #d38d72;
 }
 
 .boxs {
     position: absolute;
-    width: 200px;
-    height: 100px;
+    width: 14.285714rem;
+    height: 7.142857rem;
     background-color: pink;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
-    border-radius: 20px;
+    margin-top: -3.571429rem;
+    margin-left: -7.142857rem;
+    border-radius: 1.428571rem;
     text-align: center;
-    line-height: 100px;
+    line-height: 7.142857rem;
 }
 
 .boxs_h2 {
     position: absolute;
-    width: 200px;
+    width: 14.285714rem;
     text-align: center;
     color: #d38d72 ;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;
+    margin-top: -7.142857rem;
+    margin-left: -7.142857rem;
 }
 
 .point {
     position: absolute;
     color: #ccc;
-    font-size: 12px;
+    font-size: .857143rem;
     top: 80%;
     left: 40%;
 }
